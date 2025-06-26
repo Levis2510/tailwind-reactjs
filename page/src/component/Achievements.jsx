@@ -4,7 +4,7 @@ const Achievements = ({ stats, title, subtitle }) => {
   return (
     <div id='Achievements' className='bg-teal-50 flex flex-col md:flex-row items-center justify-between gap-8 px-6 py-10'>
       <div className='flex flex-col items-start gap-4 md:w-1/2'>
-        <h1 className='text-2xl sm:text-3xl font-bold text-gray-800 leading-snug'>
+        <h1 className='text-2xl sm:text-3xl font-bold text-gray-800 text-left leading-snug'>
           {title}<br />
           <span className='text-green-600'>{subtitle}</span>
         </h1>

@@ -22,7 +22,7 @@ const Body = ({ image, paragraph, author, position, logos }) => {
           id='Logo body'
           className="flex flex-wrap sm:flex-nowrap flex-row gap-2 sm:gap-4 md:gap-6 lg:gap-10 items-center justify-start w-full overflow-x-auto scroll-smooth pt-4"
         >
-          {logos.map((logo, i) => (
+          {logos.slice(0, 6).map((logo, i) => (
             <div key={i} className="p-2 rounded transition duration-300 hover:bg-green-200 flex-shrink-0">
               <img
                 src={logo}

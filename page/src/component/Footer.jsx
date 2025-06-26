@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = ({ title, buttonText }) => {
   return (
-    <div id='Footer' className='bg-teal-50 flex flex-col justify-center items-center px-4 py-8 sm:px-8 md:px-12 lg:px-24 gap-4 text-center'>
+    <div id='Footer' className='bg-teal-50 flex flex-col justify-center items-center px-4 py-8 sm:px-8  md:px-12  lg:px-24 gap-8 text-center'>
       <h1 className='text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-bold text-gray-800'>
         {title}
       </h1>

@@ -5,7 +5,7 @@ const Header = ({ showMenu, setShowMenu }) => {
     <div id='Header' className='text-black bg-white flex flex-row justify-between items-center px-4 md:px-10 py-4 relative'>
           <div id="Logo" className='flex flex-row gap-3 items-center'>
             <img src="src/img/Icon.png" alt="Logo" className='w-6 h-6' />
-            <h1 className='text-black text-2xl font-bold'>Nexcent</h1>
+            <h1 className='text-black text-3xl font-bold'>Nexcent</h1>
           </div>
           <button onClick={() => setShowMenu(!showMenu)} className="md:hidden block">
             <img src="img/menu.svg" alt="menu" className="w-6 h-6" />
